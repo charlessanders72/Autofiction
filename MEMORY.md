@@ -10,14 +10,17 @@ preferences, key decisions, project conventions, and important facts.
 ## Project Identity
 
 - **Name:** Autofiction
-- **Status:** Newly initialized — no application code yet
+- **Status:** Active — protocol defined, two stories generated
 - **Repository:** charlessanders72/Autofiction
 
 ## Key Decisions
 
 <!-- Record significant architectural and project decisions here. -->
 
-_No decisions recorded yet._
+- Stories saved to `stories/` with filename format `YYYY-MM-DD-slug.md`
+- Each story file includes: metadata (date, prompt source, tense/POV), outline, full story text
+- `PROTOCOL.md` lives at repo root and defines the four-step workflow
+- Default branch is `Main-Branch` (not `main`)
 
 ## User Preferences
 
@@ -36,4 +39,5 @@ _No preferences recorded yet._
 
 <!-- Record insights, pitfalls, and patterns discovered during development. -->
 
-_No lessons recorded yet._
+- Remote container can only push to `claude/<name>-<session-id>` branches; merges to Main-Branch require a PR or local merge
+- Multiple stories per day work fine by picking different topics under the same Daily Micro Fiction letter
