@@ -41,3 +41,4 @@ _No preferences recorded yet._
 
 - Remote container can only push to `claude/<name>-<session-id>` branches; merges to Main-Branch require a PR or local merge
 - Multiple stories per day work fine by picking different topics under the same Daily Micro Fiction letter
+- GitHub Actions workflow exists at `.github/workflows/autofiction.yml` for hourly automated runs; requires `ANTHROPIC_API_KEY` secret and merge to Main-Branch to activate
