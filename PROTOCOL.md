@@ -13,14 +13,19 @@ Find inspiration from one of these sources:
   - Pick a topic that matches a current CNN headline
 - **Public Domain** — Choose a story that recently entered public domain
 
-**Output:** A concept that can be explored through a fictional short story.
+Once you have a concept, identify the **tension or question** at its center — the thing that makes it a story rather than a news summary. What is at stake for a person inside this situation? What must they choose, lose, or confront?
+
+**Output:** A concept with a clear human tension that can be explored through a fictional short story.
 
 ---
 
 ## Step 2: Create an Outline
 
 Develop these elements:
-- **Theme:** One sentence capturing the core thesis
+- **Theme:** A universal claim about human nature — not a plot summary, but something true beyond this particular story. Then show how the **conflict tests** this claim and how the **character's arc resolves** it. For example:
+  - *Thesis:* "Orders followed without question become crimes committed without conscience, until the moment someone looks you in the eye."
+  - *Conflict tests it:* An agent who followed orders sits across from a nurse who lost the patient.
+  - *Arc resolves it:* He cannot defend what he did when faced with a direct question.
 - **Character(s):** At least one, with one sentence of backstory and details each
 - **Setting/Atmosphere:** One sentence description of where/when the story takes place
 - **Plot:** High-level outline of between two and four scenes
@@ -43,6 +48,8 @@ Send the outline to **Claude Opus** with this prompt:
 >
 > The ending should be abrupt and succinct, concluding precisely when the main conflict arc resolves without unnecessary denouement or explanation—readers should feel the story ends exactly where it needs to, even if it leaves them wanting more.
 >
+> The theme should never be stated outright by the narrator. Instead, express it through character choices, concrete detail, and what is left unsaid. The reader should feel the thesis without being told it.
+>
 > As you write, feel free to make creative adjustments to the material I provide if you identify opportunities that would meaningfully improve the narrative. These adjustments might include subtle changes to dialogue, character motivations, or even structural shifts, as long as the core thesis and spirit of the story remain intact.
 >
 > The story should end cleanly and decisively at the resolution of the conflict arc. Avoid using em dashes for punctuation; instead, rely on commas, semicolons, or periods to maintain stylistic consistency.
@@ -55,7 +62,13 @@ Then append the outline from Step 2.
 
 ## Step 4: Logging
 
-1. Save the output in the Autofiction repository
+1. Save the story to the `stories/` directory with the filename format `YYYY-MM-DD-slug.md`
+2. Each story file should include:
+   - **Metadata:** Date, prompt source, tense/POV
+   - **Outline:** The outline from Step 2
+   - **Story:** The full generated text
+3. Commit and push to a `claude/` feature branch
+4. Update today's daily log (`memory/YYYY-MM-DD.md`) with session notes
 
 ---
 
