@@ -55,7 +55,13 @@ Then append the outline from Step 2.
 
 ## Step 4: Logging
 
-1. Save the output in the Autofiction repository
+1. Save the story to the `stories/` directory with the filename format `YYYY-MM-DD-slug.md`
+2. Each story file should include:
+   - **Metadata:** Date, prompt source, tense/POV
+   - **Outline:** The outline from Step 2
+   - **Story:** The full generated text
+3. Commit and push to a `claude/` feature branch
+4. Update today's daily log (`memory/YYYY-MM-DD.md`) with session notes
 
 ---
 
