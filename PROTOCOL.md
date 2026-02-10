@@ -96,4 +96,5 @@ The change should address a recurring weakness or reinforce a demonstrated stren
 - Target length: 500-1,000 words (tight and punchy)
 - No em dashes, use commas, semicolons, periods
 - Endings should be abrupt and decisive
+- When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot.
 - Show, don't tell.
