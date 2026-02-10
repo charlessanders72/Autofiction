@@ -1,4 +1,4 @@
-# CLAUDE.md — Autofiction
+# Autofiction
 
 This file provides context and conventions for AI assistants (and developers) working on the Autofiction project.
 
