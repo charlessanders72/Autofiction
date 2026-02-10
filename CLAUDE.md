@@ -134,6 +134,25 @@ _To be defined._ Add frequently performed tasks and their commands here, such as
 - How to deploy
 - How to debug common issues
 
+## Tool Usage — WebFetch
+
+The `WebFetch` tool is **unreliable** and should be treated as a last resort for fetching web content. Known issues:
+
+- **HTTP 403 blocks:** Many sites (Wikipedia, npm, docs sites) reject WebFetch requests based on its User-Agent/fingerprint, even when `curl` works fine.
+- **Hangs with no timeout:** WebFetch can freeze in a "Fetching..." state indefinitely, locking the session with no way to interrupt. Recovery requires killing and restarting Claude Code.
+- **Domain verification failures:** The preflight safety check fails in restricted networks, corporate proxies, or environments with TLS inspection (Cloudflare WARP, VPNs).
+- **Content truncation:** Results are capped at ~100KB of text; large pages lose information silently.
+
+**Prefer these alternatives instead:**
+
+| Need | Use | Why |
+|------|-----|-----|
+| General research / docs lookup | `WebSearch` | Queries search engines; avoids direct-access blocks |
+| Controlled URL fetching | `curl` via Bash | Full control over headers, User-Agent, retries |
+| Rich / JS-rendered pages | MCP server (e.g., Puppeteer) | Handles dynamic content and bypasses simple blocks |
+
+Only fall back to `WebFetch` when the alternatives above are unavailable or when fetching a known-reliable URL.
+
 ## Notes for AI Assistants
 
 - **Read before editing:** Always read a file before proposing changes to it.
