@@ -1,6 +1,6 @@
 # Autofiction Workflow
 
-A four-step process for generating and publishing short stories.
+A five-step process for generating and publishing short stories.
 
 ---
 
@@ -69,6 +69,25 @@ Then append the outline from Step 2.
    - **Story:** The full generated text
 3. Commit and push to a `claude/` feature branch
 4. Update today's daily log (`memory/YYYY-MM-DD.md`) with session notes
+
+---
+
+## Step 5: Recursive Analysis
+
+After the story is generated and logged, analyze it for **strengths** and **weaknesses** — examining craft elements such as character development, dialogue, pacing, theme expression, opening hooks, endings, and adherence to the protocol's guidelines.
+
+Based on this analysis, make **at most one sentence-level change** to this protocol file (`PROTOCOL.md`). The change must be one of:
+
+- **Add** a single sentence anywhere in the protocol
+- **Modify** an existing sentence in the protocol
+- **Remove** a single sentence from the protocol
+
+The change should address a recurring weakness or reinforce a demonstrated strength — something that will improve future stories. If no meaningful change is warranted, no edit is required.
+
+**Constraints:**
+- Only one sentence may be changed per story (add, modify, or remove — pick one)
+- The change must be motivated by a specific observation from the analysis
+- Log the change (or the decision not to change) in the story file's metadata and in today's daily log
 
 ---
 
