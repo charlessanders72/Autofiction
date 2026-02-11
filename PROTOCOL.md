@@ -91,6 +91,59 @@ The change should address a recurring weakness or reinforce a demonstrated stren
 
 ---
 
+## Stock Characters
+
+A reference list of characters who have appeared in previous stories. These can be reused, referenced, or adapted in future stories to build continuity across the Autofiction universe.
+
+### Protagonists (POV Characters)
+
+| Character | Age | Occupation | Story | Key Detail |
+|-----------|-----|------------|-------|------------|
+| Marcus Pruitt | 44 | DHS Enforcement and Removal Operations agent | *Last Van South* | Former Army military police; deployed to Minneapolis; haunted by a raid gone wrong |
+| Mika Bergstrom | 29 | Swedish Olympic alpine skier | *The Body You Were* | Three Olympic golds; career-ending nerve injury; raised by a single father/ski coach |
+| Margot Linden | 38 | High school English teacher | *Brillig* | Lives alone in Penrose, Colorado; reads "Jabberwocky" to her dead father's urn every Tuesday |
+| Mei Lai | 34 | Freelance translator | *One Way Ticket* | Left Hong Kong in 2020; lives in Brixton, London; father imprisoned for journalism |
+| Nadia Vasquez | 31 | Junior legal researcher | *Flag for Review* | Two years out of law school; owes her career to the mentor whose name she finds on a flight manifest |
+| Oksana Mehta | 34 | Translator (Ukrainian-born, Jain-Indian mother) | *The Locked Thing* | Raised between two traditions of non-violence; father killed by a Russian missile in 2022 |
+| Meredith Crane | 40s | Morning news anchor | *The Green Room* | Known for unflappable on-camera composure; mother disappeared voluntarily |
+| Dariush Tavakoli | 58 | Iranian diplomat | *The Clean Text* | Left Tehran as a student during the revolution; brother killed in the Iran-Iraq War; believes diplomacy prevents war |
+| Maya Okafor | 42 | Nigerian-American pediatric nurse | *The Coleslaw* | Moved to a Northern Virginia suburb five years ago; daughter Chiamaka, husband Emeka |
+| Dr. Lena Reyes | 41 | Pediatric surgeon | *The Measure* | Trained in Mexico City; returned to Havana out of obligation; works through the Cuban fuel crisis |
+
+### Supporting Characters
+
+| Character | Age | Occupation | Story | Key Detail |
+|-----------|-----|------------|-------|------------|
+| Elena Reyes | 38 | ER nurse at Hennepin Healthcare | *Last Van South* | Salvadoran-born, permanent US resident; treated a shooting victim from Marcus's raid |
+| Dr. Jonas Petrov | 40s | Italian orthopedic surgeon | *The Body You Were* | Handles Olympic injuries; delivers career-ending news with quiet steadiness |
+| Walter Linden | 71 (deceased) | Retired machinist | *Brillig* | Margot's father; loved Carroll and Lear; wrote "good" in the margin of "Jabberwocky" |
+| Jimmy Lai | 60s | Imprisoned journalist/publisher | *One Way Ticket* | Mei's father; sentenced to 20 years in Hong Kong; quotes Camus in his final messages |
+| Judge Emory Sands | 67 | Federal appellate judge | *Flag for Review* | Nadia's mentor; name found on an Epstein-investigation flight manifest |
+| Sergei Volkov | 52 | Russian deputy negotiator | *The Locked Thing* | Career diplomat; pleasant face; treats concessions as gifts he is offering |
+| Detective Ray Solis | 50s | Lead investigator | *The Green Room* | Methodical, detached; flat brown eyes; delivers unwelcome truths without apology |
+| Catherine Hale | 45 | American envoy, former CIA Iran desk | *The Clean Text* | Left intelligence for diplomacy; enters rooms without knocking; says nothing when it matters |
+| Doug Brenner | 56 | Retired postal worker, neighborhood association president | *The Coleslaw* | Posted a racist video mocking a child's name; refuses to apologize |
+| Tomas | 9 | Son of a fisherman from Regla | *The Measure* | Emergency appendectomy patient; his father rowed him across Havana harbor in the dark |
+
+### Minor/Recurring Characters
+
+| Character | Story | Role |
+|-----------|-------|------|
+| Royce | *Last Van South* | Federal agent who fired the fatal shots during the raid |
+| Sofia | *Last Van South* | Five-year-old girl in the raided apartment |
+| Rafael | *Flag for Review* | Nadia's colleague on the document review team |
+| Kravchuk | *The Locked Thing* | Ukrainian Deputy Minister at the peace talks |
+| Collins | *The Locked Thing* | American mediator at the Oman negotiations |
+| Patricia Crane | *The Green Room* | Meredith's mother; walked away from her own life voluntarily |
+| Danny | *The Green Room* | Meredith's TV producer |
+| Linda Brenner | *The Coleslaw* | Doug's wife; organizes the July 4th block party; gives the toast about community |
+| Chiamaka Okafor | *The Coleslaw* | Maya's 9-year-old daughter; name means "God is beautiful" in Igbo |
+| Emeka Okafor | *The Coleslaw* | Maya's husband |
+| Yusnel | *The Measure* | Night nurse; rigged a bicycle to a ventilator pump |
+| Daimarys | *The Measure* | Nurse; hand-bags a newborn's ventilation through the blackout |
+
+---
+
 ## Notes
 
 - Target length: 500-1,000 words (tight and punchy)
