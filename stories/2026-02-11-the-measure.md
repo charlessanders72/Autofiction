@@ -5,7 +5,7 @@
 - **Date:** 2026-02-11
 - **Prompt source:** Daily Micro Fiction letter K (Kardashev scale) + CNN headline (Cuba hasn't received an oil shipment since December; shortage grounds air travel, disrupts hospitals, schools, food production)
 - **Tense/POV:** Present tense, third person limited (Dr. Lena Reyes)
-- **Recursive analysis:** See below
+- **Recursive analysis:** Opening hook is atmospheric rather than active; conflict doesn't arrive until paragraph two. Added protocol note: "Open with the conflict already in motion; establish atmosphere through the action, not before it."
 
 ## Outline
 

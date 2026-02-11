@@ -98,3 +98,4 @@ The change should address a recurring weakness or reinforce a demonstrated stren
 - Endings should be abrupt and decisive
 - When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot.
 - Show, don't tell.
+- Open with the conflict already in motion; establish atmosphere through the action, not before it.
