@@ -149,24 +149,14 @@ Over time, review daily logs and promote recurring patterns or significant decis
 - **Update the protocol:** Follow Step 5 (Recursive Analysis) — at most one sentence-level change per story, motivated by a specific craft observation.
 - **Check session history:** Read the daily logs in `memory/` for running context, or `MEMORY.md` for durable facts.
 
-## Tool Usage — WebFetch
+## Tool Usage — Web Search
 
-The `WebFetch` tool is **unreliable** and should be treated as a last resort for fetching web content. Known issues:
+When searching external websites for information (news headlines, research, documentation, etc.), **use `WebSearch` exclusively**. Do not use `curl`, `WebFetch`, MCP servers, or any other method to access external web content.
 
-- **HTTP 403 blocks:** Many sites (Wikipedia, npm, docs sites) reject WebFetch requests based on its User-Agent/fingerprint, even when `curl` works fine.
-- **Hangs with no timeout:** WebFetch can freeze in a "Fetching..." state indefinitely, locking the session with no way to interrupt. Recovery requires killing and restarting Claude Code.
-- **Domain verification failures:** The preflight safety check fails in restricted networks, corporate proxies, or environments with TLS inspection (Cloudflare WARP, VPNs).
-- **Content truncation:** Results are capped at ~100KB of text; large pages lose information silently.
-
-**Prefer these alternatives instead:**
-
-| Need | Use | Why |
-|------|-----|-----|
-| General research / docs lookup | `WebSearch` | Queries search engines; avoids direct-access blocks |
-| Controlled URL fetching | `curl` via Bash | Full control over headers, User-Agent, retries |
-| Rich / JS-rendered pages | MCP server (e.g., Puppeteer) | Handles dynamic content and bypasses simple blocks |
-
-Only fall back to `WebFetch` when the alternatives above are unavailable or when fetching a known-reliable URL.
+- **`WebSearch`** is the only supported tool for querying external websites. It queries search engines reliably and avoids the access issues that plague direct-fetch approaches.
+- **`WebFetch`** is unreliable (HTTP 403 blocks, indefinite hangs, content truncation) and should **not** be used.
+- **`curl` via Bash** is **not permitted** for fetching external web content.
+- **MCP servers** (e.g., Puppeteer) are **not permitted** for fetching external web content.
 
 ## Notes for AI Assistants
 
