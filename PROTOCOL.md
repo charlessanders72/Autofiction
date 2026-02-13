@@ -48,7 +48,7 @@ Send the outline to **Claude Opus** with this prompt:
 >
 > The ending should be abrupt and succinct, concluding precisely when the main conflict arc resolves without unnecessary denouement or explanation—readers should feel the story ends exactly where it needs to, even if it leaves them wanting more.
 >
-> The theme should never be stated outright by the narrator. Instead, express it through character choices, concrete detail, and what is left unsaid. The reader should feel the thesis without being told it. When interior reflection or backstory is necessary, anchor it with physical detail or action to maintain pacing; even a character's thoughts can be grounded in what their hands are doing or what their body registers.
+> The theme should never be stated outright by the narrator. Instead, express it through character choices, concrete detail, and what is left unsaid. The reader should feel the thesis without being told it. If you find yourself explaining what a character understands or realizes, cut the explanation and trust the reader to infer it from what the character does next. When interior reflection or backstory is necessary, anchor it with physical detail or action to maintain pacing; even a character's thoughts can be grounded in what their hands are doing or what their body registers.
 >
 > As you write, feel free to make creative adjustments to the material I provide if you identify opportunities that would meaningfully improve the narrative. These adjustments might include subtle changes to dialogue, character motivations, or even structural shifts, as long as the core thesis and spirit of the story remain intact.
 >
