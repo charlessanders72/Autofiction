@@ -109,6 +109,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Dariush Tavakoli | 58 | Iranian diplomat | *The Clean Text* | Left Tehran as a student during the revolution; brother killed in the Iran-Iraq War; believes diplomacy prevents war |
 | Maya Okafor | 42 | Nigerian-American pediatric nurse | *The Coleslaw* | Moved to a Northern Virginia suburb five years ago; daughter Chiamaka, husband Emeka |
 | Dr. Lena Reyes | 41 | Pediatric surgeon | *The Measure* | Trained in Mexico City; returned to Havana out of obligation; works through the Cuban fuel crisis |
+| Dr. Anaya Rao | 47 | Pediatrician | *The Shot* | Solo practice in Bethesda; daughter of Indian immigrants who ran a clinic in Hyderabad; risks her license to vaccinate a child |
 
 ### Supporting Characters
 
@@ -124,6 +125,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Catherine Hale | 45 | American envoy, former CIA Iran desk | *The Clean Text* | Left intelligence for diplomacy; enters rooms without knocking; says nothing when it matters |
 | Doug Brenner | 56 | Retired postal worker, neighborhood association president | *The Coleslaw* | Posted a racist video mocking a child's name; refuses to apologize |
 | Tomas | 9 | Son of a fisherman from Regla | *The Measure* | Emergency appendectomy patient; his father rowed him across Havana harbor in the dark |
+| Grace Okonkwo | 32 | Nigerian-American mother | *The Shot* | Son Emeka had measles at three, nearly lost his hearing; demands MMR for her daughter Adaeze |
 
 ### Minor/Recurring Characters
 
@@ -141,6 +143,8 @@ A reference list of characters who have appeared in previous stories. These can 
 | Emeka Okafor | *The Coleslaw* | Maya's husband |
 | Yusnel | *The Measure* | Night nurse; rigged a bicycle to a ventilator pump |
 | Daimarys | *The Measure* | Nurse; hand-bags a newborn's ventilation through the blackout |
+| Patty | *The Shot* | Dr. Rao's office manager; delivers the medical board memo |
+| Adaeze Okonkwo | *The Shot* | Grace's 15-month-old daughter; receives the MMR vaccine |
 
 ---
 
@@ -152,3 +156,4 @@ A reference list of characters who have appeared in previous stories. These can 
 - When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot.
 - Show, don't tell.
 - Open with the conflict already in motion; establish atmosphere through the action, not before it.
+- When a memory or flashback surfaces, cut directly to concrete detail; avoid framing language that explains which version of the memory this is or why it is arriving.
