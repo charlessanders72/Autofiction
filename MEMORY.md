@@ -41,5 +41,5 @@ _No preferences recorded yet._
 
 - Remote container can only push to `claude/<name>-<session-id>` branches; merges to Main-Branch require a PR or local merge
 - Multiple stories per day work fine by picking different topics under the same Daily Micro Fiction letter
-- GitHub Actions workflow exists at `.github/workflows/autofiction.yml` for daily automated runs (8 AM Eastern / 1 PM UTC); requires `ANTHROPIC_API_KEY` secret and merge to Main-Branch to activate
+- GitHub Actions workflow exists at `.github/workflows/autofiction.yml` for daily automated runs (6 PM Eastern / 11 PM UTC); requires `ANTHROPIC_API_KEY` secret and merge to Main-Branch to activate
 - **WebFetch is unreliable** — frequently returns 403s, hangs indefinitely, or fails domain verification. Prefer `WebSearch` for research, `curl` via Bash for direct URL fetching, or MCP servers for JS-rendered pages. See `CLAUDE.md` "Tool Usage — WebFetch" section for full details.
