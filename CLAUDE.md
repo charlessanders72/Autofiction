@@ -40,7 +40,7 @@ Autofiction/
 ### Running
 
 - **Manual:** Run `claude` in the repo root and ask it to "run autofiction protocol". The protocol in `PROTOCOL.md` guides the session.
-- **Automated:** The GitHub Actions workflow (`.github/workflows/autofiction.yml`) runs daily at 8 AM Eastern. It can also be triggered manually via `workflow_dispatch` in the GitHub UI.
+- **Automated:** The GitHub Actions workflow (`.github/workflows/autofiction.yml`) runs daily at 6 PM Eastern. It can also be triggered manually via `workflow_dispatch` in the GitHub UI.
 
 ## Development Workflow
 
@@ -50,7 +50,7 @@ This is a Markdown-and-protocol project — there is no traditional build step, 
 
 A GitHub Actions workflow at `.github/workflows/autofiction.yml` automates daily story generation:
 
-- **Schedule:** Daily at 8 AM Eastern (1 PM UTC) via cron
+- **Schedule:** Daily at 6 PM Eastern (11 PM UTC) via cron
 - **Manual trigger:** Available via `workflow_dispatch` in the GitHub UI
 - **Process:** Checks out `Main-Branch`, installs Claude Code CLI, runs the protocol, commits the story to an `autofiction/YYYY-MM-DD-HHMM` branch, and opens a PR to `Main-Branch`
 - **Important:** The workflow handles all git operations (commit, push, PR creation). Claude is told to skip git commands during CI runs — it only writes files.
@@ -145,7 +145,7 @@ Over time, review daily logs and promote recurring patterns or significant decis
 ## Common Tasks
 
 - **Generate a story manually:** Run `claude` in the repo root and instruct it to "run autofiction protocol". It will follow the 5 steps in `PROTOCOL.md`.
-- **Trigger automated generation:** Use the `workflow_dispatch` trigger in GitHub Actions, or wait for the daily 8 AM Eastern cron.
+- **Trigger automated generation:** Use the `workflow_dispatch` trigger in GitHub Actions, or wait for the daily 6 PM Eastern cron.
 - **Review a story:** Check the latest file in `stories/` — each includes metadata, the outline, and the full text.
 - **Update the protocol:** Follow Step 5 (Recursive Analysis) — at most one sentence-level change per story, motivated by a specific craft observation.
 - **Check session history:** Read the daily logs in `memory/` for running context, or `MEMORY.md` for durable facts.
