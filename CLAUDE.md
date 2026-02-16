@@ -53,6 +53,7 @@ A GitHub Actions workflow at `.github/workflows/autofiction.yml` automates daily
 - **Schedule:** Daily at 8 AM Eastern (1 PM UTC) via cron
 - **Manual trigger:** Available via `workflow_dispatch` in the GitHub UI
 - **Process:** Checks out `Main-Branch`, installs Claude Code CLI, runs the protocol, commits the story to an `autofiction/YYYY-MM-DD-HHMM` branch, and opens a PR to `Main-Branch`
+- **Important:** The workflow handles all git operations (commit, push, PR creation). Claude is told to skip git commands during CI runs — it only writes files.
 - **Secrets required:** `ANTHROPIC_API_KEY` must be configured in the repository settings
 
 ## Conventions
