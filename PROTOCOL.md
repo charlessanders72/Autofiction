@@ -46,7 +46,7 @@ Send the outline to **Claude Opus** with this prompt:
 >
 > To ensure a clear and manageable arc, the story should unfold in no more than four distinct scenes—ideally two or three—to avoid unnecessary sprawl and keep the pacing sharp.
 >
-> The ending should be abrupt and succinct, concluding precisely when the main conflict arc resolves without unnecessary denouement or explanation—readers should feel the story ends exactly where it needs to, even if it leaves them wanting more.
+> The ending should be abrupt and succinct, concluding precisely when the main conflict arc resolves without unnecessary denouement or explanation; if the story's central question is about whether a character will act, the ending must answer that question, even if the answer is ambiguous—readers should feel the story ends exactly where it needs to, even if it leaves them wanting more.
 >
 > The theme should never be stated outright by the narrator. Instead, express it through character choices, concrete detail, and what is left unsaid. The reader should feel the thesis without being told it. If you find yourself explaining what a character understands or realizes, cut the explanation and trust the reader to infer it from what the character does next. When interior reflection or backstory is necessary, anchor it with physical detail or action to maintain pacing; even a character's thoughts can be grounded in what their hands are doing or what their body registers.
 >
@@ -111,6 +111,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Dr. Lena Reyes | 41 | Pediatric surgeon | *The Measure* | Trained in Mexico City; returned to Havana out of obligation; works through the Cuban fuel crisis |
 | Dr. Anaya Rao | 47 | Pediatrician | *The Shot* | Solo practice in Bethesda; daughter of Indian immigrants who ran a clinic in Hyderabad; risks her license to vaccinate a child |
 | Sofia Restrepo | 28 | Prediction markets quant analyst | *The Payout* | Born in Caracas; came to US at six; models political risk in Brooklyn; profits from the immigration enforcement she was raised to fear |
+| Rachel Kovacs | 32 | Junior Vice President, Goldman Sachs Private Wealth Management | *The Draft* | Grew up in Cleveland; daughter of a public defender and a social worker; told herself finance would be a stepping stone to something meaningful; writes a resignation email about Epstein connections but doesn't send it |
 
 ### Supporting Characters
 
@@ -128,6 +129,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Tomas | 9 | Son of a fisherman from Regla | *The Measure* | Emergency appendectomy patient; his father rowed him across Havana harbor in the dark |
 | Grace Okonkwo | 32 | Nigerian-American mother | *The Shot* | Son Emeka had measles at three, nearly lost his hearing; demands MMR for her daughter Adaeze |
 | Beto Restrepo | 62 | Building superintendent | *The Payout* | Sofia's father; Jackson Heights, Queens; still connected to the Venezuelan community; carries the past his daughter has abstracted away |
+| David Chen | 45 | Managing Director, Goldman Sachs Private Wealth Management | *The Draft* | Rachel's boss; affable, insulated; treats uncomfortable news like a passing weather system; tells Rachel to keep her head down after Ruemmler's resignation |
 
 ### Minor/Recurring Characters
 
