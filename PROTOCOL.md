@@ -67,7 +67,7 @@ Then append the outline from Step 2.
    - **Metadata:** Date, prompt source, tense/POV
    - **Outline:** The outline from Step 2
    - **Story:** The full generated text
-3. Commit and push to a `claude/` feature branch
+3. Commit and push to a `claude/` feature branch (skip this in CI — the workflow handles git operations)
 4. Update today's daily log (`memory/YYYY-MM-DD.md`) with session notes
 
 ---
