@@ -4,7 +4,7 @@ This file provides context and conventions for AI assistants (and developers) wo
 
 ## Project Overview
 
-**Autofiction** is a protocol-driven generative fiction project. It uses Claude (via the Anthropic API and Claude Code CLI) to produce short literary stories (500–1,000 words) by pairing [Daily Micro Fiction](https://www.dailymicrofiction.com/p/index) prompts with current news headlines. A 5-step workflow defined in `PROTOCOL.md` governs idea selection, outlining, generation, logging, and recursive self-improvement of the protocol itself. Stories are generated daily — either manually or via GitHub Actions automation.
+**Autofiction** is a protocol-driven generative fiction project. It uses Claude (via the Anthropic API and Claude Code CLI) to produce short literary stories (500–1,000 words) by pairing [Daily Micro Fiction](https://www.dailymicrofiction.com/p/index) prompts with current news headlines. A 5-step workflow defined in `PROTOCOL.md` governs idea selection, outlining, generation, recursive self-improvement of the protocol, and logging. Stories are generated daily — either manually or via GitHub Actions automation.
 
 ## Repository Structure
 
@@ -44,7 +44,7 @@ Autofiction/
 
 ## Development Workflow
 
-This is a Markdown-and-protocol project — there is no traditional build step, test suite, or linter. Quality is maintained through the protocol's recursive analysis (Step 5) and manual review via pull requests.
+This is a Markdown-and-protocol project — there is no traditional build step, test suite, or linter. Quality is maintained through the protocol's recursive analysis (Step 4) and manual review via pull requests.
 
 ### CI/CD
 
@@ -62,7 +62,7 @@ A GitHub Actions workflow at `.github/workflows/autofiction.yml` automates daily
 
 - Write small, focused commits with clear messages describing _why_ a change was made.
 - Prefer editing existing files over creating new ones when possible.
-- Only modify `PROTOCOL.md` through the recursive analysis step (Step 5) — one sentence-level change per story, motivated by a specific observation.
+- Only modify `PROTOCOL.md` through the recursive analysis step (Step 4) — one sentence-level change per story, motivated by a specific observation.
 
 ### Story Format
 
@@ -87,8 +87,8 @@ The project follows a protocol-driven loop defined in `PROTOCOL.md`:
 1. **Pick an Idea** — Select a Daily Micro Fiction topic (letter = day of month) and pair it with a current CNN headline to extract human tension.
 2. **Create an Outline** — Develop theme (universal claim about human nature), characters, setting, and a 2–4 scene plot.
 3. **Generate the Story** — Send the outline to Claude Opus with a structured prompt emphasizing immersion, fast pacing, show-don't-tell, and abrupt endings.
-4. **Log and Commit** — Save to `stories/YYYY-MM-DD-slug.md` with metadata, commit to a feature branch, update the daily memory log.
-5. **Recursive Analysis** — Analyze the story for craft strengths/weaknesses and make at most one sentence-level change to `PROTOCOL.md`, creating a self-improving feedback loop.
+4. **Recursive Analysis** — Analyze the story for craft strengths/weaknesses and make at most one sentence-level change to `PROTOCOL.md`, creating a self-improving feedback loop.
+5. **Log and Commit** — Save to `stories/YYYY-MM-DD-slug.md` with metadata, commit to a feature branch, update the daily memory log.
 
 The system is designed so that each story generation cycle refines the protocol for the next.
 
@@ -147,7 +147,7 @@ Over time, review daily logs and promote recurring patterns or significant decis
 - **Generate a story manually:** Run `claude` in the repo root and instruct it to "run autofiction protocol". It will follow the 5 steps in `PROTOCOL.md`.
 - **Trigger automated generation:** Use the `workflow_dispatch` trigger in GitHub Actions, or wait for the daily 6 PM Eastern cron.
 - **Review a story:** Check the latest file in `stories/` — each includes metadata, the outline, and the full text.
-- **Update the protocol:** Follow Step 5 (Recursive Analysis) — at most one sentence-level change per story, motivated by a specific craft observation.
+- **Update the protocol:** Follow Step 4 (Recursive Analysis) — at most one sentence-level change per story, motivated by a specific craft observation.
 - **Check session history:** Read the daily logs in `memory/` for running context, or `MEMORY.md` for durable facts.
 
 ## Tool Usage — Web Search
