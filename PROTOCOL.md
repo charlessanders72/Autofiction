@@ -60,21 +60,9 @@ Then append the outline from Step 2.
 
 ---
 
-## Step 4: Logging
+## Step 4: Recursive Analysis
 
-1. Save the story to the `stories/` directory with the filename format `YYYY-MM-DD-slug.md`
-2. Each story file should include:
-   - **Metadata:** Date, prompt source, tense/POV
-   - **Outline:** The outline from Step 2
-   - **Story:** The full generated text
-3. Commit and push to a `claude/` feature branch (skip this in CI — the workflow handles git operations)
-4. Update today's daily log (`memory/YYYY-MM-DD.md`) with session notes
-
----
-
-## Step 5: Recursive Analysis
-
-After the story is generated and logged, analyze it for **strengths** and **weaknesses** — examining craft elements such as character development, dialogue, pacing, theme expression, opening hooks, endings, and adherence to the protocol's guidelines.
+After the story is generated, analyze it for **strengths** and **weaknesses** — examining craft elements such as character development, dialogue, pacing, theme expression, opening hooks, endings, and adherence to the protocol's guidelines.
 
 Based on this analysis, make **at most one sentence-level change** to this protocol file (`PROTOCOL.md`). The change must be one of:
 
@@ -88,6 +76,18 @@ The change should address a recurring weakness or reinforce a demonstrated stren
 - Only one sentence may be changed per story (add, modify, or remove — pick one)
 - The change must be motivated by a specific observation from the analysis
 - Log the change (or the decision not to change) in the story file's metadata and in today's daily log
+
+---
+
+## Step 5: Logging
+
+1. Save the story to the `stories/` directory with the filename format `YYYY-MM-DD-slug.md`
+2. Each story file should include:
+   - **Metadata:** Date, prompt source, tense/POV, recursive analysis notes
+   - **Outline:** The outline from Step 2
+   - **Story:** The full generated text
+3. Commit and push to a `claude/` feature branch (skip this in CI — the workflow handles git operations)
+4. Update today's daily log (`memory/YYYY-MM-DD.md`) with session notes
 
 ---
 
