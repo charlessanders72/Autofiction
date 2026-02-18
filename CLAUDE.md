@@ -4,7 +4,7 @@ This file provides context and conventions for AI assistants (and developers) wo
 
 ## Project Overview
 
-**Autofiction** is a protocol-driven generative fiction project. It uses Claude (via the Anthropic API and Claude Code CLI) to produce short literary stories (500–1,000 words) by pairing [Daily Micro Fiction](https://www.dailymicrofiction.com/p/index) prompts with current news headlines. A 5-step workflow defined in `PROTOCOL.md` governs idea selection, outlining, generation, recursive self-improvement of the protocol, and logging. Stories are generated daily — either manually or via GitHub Actions automation.
+**Autofiction** is a protocol-driven generative fiction project. It uses Claude (via the Anthropic API and Claude Code CLI) to produce short literary stories (500–1,000 words) by pairing [Daily Micro Fiction](https://www.dailymicrofiction.com/p/index) prompts with current news headlines. A 5-step workflow defined in `PROTOCOL.md` governs idea selection, outlining, generation, recursive self-improvement of the protocol, and logging. Stories are generated daily — either manually or via GitHub Actions automation. The stories are written at a [Level Five](https://www.dailymicrofiction.com/p/a-quantifiable-ai-use-scale) AI usage level.
 
 ## Repository Structure
 
