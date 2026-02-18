@@ -58,7 +58,7 @@ Send the outline to **Claude Opus** with this prompt:
 >
 > The story should end cleanly and decisively at the resolution of the conflict arc. Avoid using em dashes for punctuation; instead, rely on commas, semicolons, or periods to maintain stylistic consistency.
 >
-> Before beginning the draft, review the tense and POV choices of the five most recent stories in `stories/`. Then select a tense (past, present, or future) and point of view (first person, second person, third person limited, or third person omniscient) that **differs from the most common recent choice**. Third person limited is the default only when no other POV serves the story; actively consider first person for confessional or intimate narratives, second person for immersive or accusatory tones, and omniscient for stories with multiple characters whose inner lives matter equally. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
+> Before beginning the draft, review the tense and POV choices of the five most recent stories in `stories/`. Then select a tense (past, present, or future) and point of view (first person, second person, third person limited, or third person omniscient) that **differs from the most common recent choice**. Third person limited is the default only when no other POV serves the story; actively consider first person for confessional or intimate narratives, second person for immersive or accusatory tones, and omniscient for stories with multiple characters whose inner lives matter equally. In first person, the narrator's voice is itself a form of characterization; let speech patterns, digressions, and the rhythm of self-disclosure do work that third person achieves through physical detail and action. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
 
 Then append the outline from Step 2.
 
@@ -116,6 +116,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Dr. Anaya Rao | 47 | Pediatrician | *The Shot* | Solo practice in Bethesda; daughter of Indian immigrants who ran a clinic in Hyderabad; risks her license to vaccinate a child |
 | Sofia Restrepo | 28 | Prediction markets quant analyst | *The Payout* | Born in Caracas; came to US at six; models political risk in Brooklyn; profits from the immigration enforcement she was raised to fear |
 | Rachel Kovacs | 32 | Junior Vice President, Goldman Sachs Private Wealth Management | *The Draft* | Grew up in Cleveland; daughter of a public defender and a social worker; told herself finance would be a stepping stone to something meaningful; writes a resignation email about Epstein connections but doesn't send it |
+| Earl Givens | 72 | Barber, Givens' Barbershop | *Sixty-Third Street* | Owned his shop on 63rd Street, Woodlawn, Chicago for 43 years; widower; Army veteran; Jesse Jackson walked in for a trim in 1984 and asked Earl to join the campaign; Earl said no and has been telling the story without that part ever since |
 
 ### Supporting Characters
 
@@ -134,6 +135,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Grace Okonkwo | 32 | Nigerian-American mother | *The Shot* | Son Emeka had measles at three, nearly lost his hearing; demands MMR for her daughter Adaeze |
 | Beto Restrepo | 62 | Building superintendent | *The Payout* | Sofia's father; Jackson Heights, Queens; still connected to the Venezuelan community; carries the past his daughter has abstracted away |
 | David Chen | 45 | Managing Director, Goldman Sachs Private Wealth Management | *The Draft* | Rachel's boss; affable, insulated; treats uncomfortable news like a passing weather system; tells Rachel to keep her head down after Ruemmler's resignation |
+| Marcus | 38 | High school history teacher, Simeon Career Academy | *Sixty-Third Street* | Earl's regular customer; comes every other Tuesday; has heard the Jackson story a dozen times and always asks for it |
 
 ### Minor/Recurring Characters
 
