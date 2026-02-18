@@ -13,6 +13,8 @@ Find inspiration from one of these sources:
   - Pick a topic that matches a current CNN headline
 - **Public Domain** — Choose a story that recently entered public domain
 
+Before selecting a headline, scan the **Prompt Source** metadata in recent story files (`stories/`) to see which news events, scandals, and geopolitical situations have already been used. Do not reuse the same underlying event or scandal (e.g., the same investigation, the same conflict theater, the same corporate crisis) more than once. If today's headlines overlap with a previously used event, pick a different headline.
+
 Once you have a concept, identify the **tension or question** at its center — the thing that makes it a story rather than a news summary. What is at stake for a person inside this situation? What must they choose, lose, or confront?
 
 **Output:** A concept with a clear human tension that can be explored through a fictional short story.
@@ -22,11 +24,13 @@ Once you have a concept, identify the **tension or question** at its center — 
 ## Step 2: Create an Outline
 
 Develop these elements:
-- **Theme:** A universal claim about human nature — not a plot summary, but something true beyond this particular story. Then show how the **conflict tests** this claim and how the **character's arc resolves** it. For example:
-  - *Thesis:* "Orders followed without question become crimes committed without conscience, until the moment someone looks you in the eye."
-  - *Conflict tests it:* An agent who followed orders sits across from a nurse who lost the patient.
-  - *Arc resolves it:* He cannot defend what he did when faced with a direct question.
-- **Character(s):** At least one, with one sentence of backstory and details each
+- **Theme:** A universal claim about human nature — not a plot summary, but something true beyond this particular story. Then show how the **conflict tests** this claim and how the **character's arc resolves** it. Examples of different story shapes:
+  - *Professional ethical dilemma:* "Orders followed without question become crimes committed without conscience." An agent sits across from a nurse who lost the patient. He cannot defend what he did.
+  - *Relational/domestic:* "The people we live with are the last ones we allow ourselves to see clearly." A father discovers his teenage son has been forging his signature on school forms for a year. He realizes the forgery is perfect because the boy has been studying him.
+  - *Internal/psychological:* "Nostalgia is a liar that speaks in the voice of someone you loved." A retired teacher returns to the town she grew up in and finds it has become exactly what she left it to escape.
+  - *Comic or absurd:* "Every bureaucracy eventually produces a form for its own abolition." A city clerk discovers that the permit required to close his own office was never filed.
+  - Not every story needs to be a moral dilemma set in a professional context. Vary the shape: domestic conflict, coming-of-age, comedy, grief without a villain, adventure, love, boredom, regret.
+- **Character(s):** At least one, with one sentence of backstory and details each. Before finalizing, check the Stock Characters table and the last five stories: if the protagonist's gender, age bracket, or professional background closely mirrors recent protagonists, deliberately change at least one of those attributes. Do not default to the same demographic profile story after story.
 - **Setting/Atmosphere:** One sentence description of where/when the story takes place
 - **Plot:** High-level outline of between two and four scenes
 
@@ -54,7 +58,7 @@ Send the outline to **Claude Opus** with this prompt:
 >
 > The story should end cleanly and decisively at the resolution of the conflict arc. Avoid using em dashes for punctuation; instead, rely on commas, semicolons, or periods to maintain stylistic consistency.
 >
-> Before beginning the draft, carefully select a tense (past, present, or future) and point of view (first, second, or third person) that best suits the genre and mood suggested by the thesis and plot. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
+> Before beginning the draft, review the tense and POV choices of the five most recent stories in `stories/`. Then select a tense (past, present, or future) and point of view (first person, second person, third person limited, or third person omniscient) that **differs from the most common recent choice**. Third person limited is the default only when no other POV serves the story; actively consider first person for confessional or intimate narratives, second person for immersive or accusatory tones, and omniscient for stories with multiple characters whose inner lives matter equally. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
 
 Then append the outline from Step 2.
 
@@ -159,9 +163,21 @@ A reference list of characters who have appeared in previous stories. These can 
 - Target length: 500-1,000 words (tight and punchy)
 - No em dashes, use commas, semicolons, periods
 - Endings should be abrupt and decisive
-- When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot.
+- When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot. But vary the shape of endings: not every story should close on the protagonist alone performing a solitary gesture. Consider endings with dialogue, with two characters in the same frame, with a shift to a wider view, with an interruption, or with someone arriving rather than leaving.
 - Show, don't tell.
 - Open with the conflict already in motion; establish atmosphere through the action, not before it.
 - When a memory or flashback surfaces, cut directly to concrete detail; avoid framing language that explains which version of the memory this is or why it is arriving.
 - When a character's expertise is already demonstrated through their actions, resist the urge to explain their methodology; let competence show in what they do, not in how the narrator describes their thinking.
 - When a story's tension depends on a technical or linguistic distinction, resist explaining why the distinction matters; let the character's hesitation and the other characters' reactions carry the weight.
+- Titles should not default to "The + Noun." Vary the pattern: use a character's name, a line of dialogue, a place, a verb, a question, a number, or a phrase from the story. If the last three titles all follow the same structure, break the pattern.
+
+### Variation Watchlist
+
+The following patterns have appeared so frequently across past stories that they risk becoming tics rather than choices. Before finalizing any draft, check the story against this list. If three or more items appear, revise at least one away.
+
+- **Hands as primary body language:** Characters clenching fists, pressing palms flat, wrapping hands around mugs, closing hands around nothing. Use other parts of the body (jaw, shoulders, breathing, posture, gait) or skip the body language entirely.
+- **Phone placed face-down on a surface:** Find a different gesture to signal avoidance or dread.
+- **Fluorescent lights humming:** Choose different ambient sensory details. Sounds, smells, textures, temperatures, and light sources are infinite; fluorescent hum is one option, not the default.
+- **Protagonist alone in the final paragraph:** See ending variety note above.
+- **Silence as the climactic beat:** A character choosing not to speak, or a room going quiet after a statement, is powerful once. When it becomes the default climax shape, vary it: let someone speak when the reader expects silence, let the world intrude, let the moment be interrupted rather than held.
+- **Hyper-specific numbers as shorthand for verisimilitude:** Precise counts ("forty-three times," "$47,300," "eleven seconds") are effective in moderation. When every story leans on them, they become a crutch. Some stories benefit from vagueness, rounding, or the absence of measurement.
