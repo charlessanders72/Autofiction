@@ -170,6 +170,7 @@ A reference list of characters who have appeared in previous stories. These can 
 - Show, don't tell.
 - Open with the conflict already in motion; establish atmosphere through the action, not before it.
 - When a memory or flashback surfaces, cut directly to concrete detail; avoid framing language that explains which version of the memory this is or why it is arriving.
+- When a metaphor carries its meaning on its own, do not add a preceding or trailing clause that explains it; trust the comparison to do its work without annotation.
 - When a character's expertise is already demonstrated through their actions, resist the urge to explain their methodology; let competence show in what they do, not in how the narrator describes their thinking.
 - When a story's tension depends on a technical or linguistic distinction, resist explaining why the distinction matters; let the character's hesitation and the other characters' reactions carry the weight.
 - Titles should not default to "The + Noun." Vary the pattern: use a character's name, a line of dialogue, a place, a verb, a question, a number, or a phrase from the story. If the last three titles all follow the same structure, break the pattern.
