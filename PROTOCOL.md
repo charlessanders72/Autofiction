@@ -117,6 +117,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Sofia Restrepo | 28 | Prediction markets quant analyst | *The Payout* | Born in Caracas; came to US at six; models political risk in Brooklyn; profits from the immigration enforcement she was raised to fear |
 | Rachel Kovacs | 32 | Junior Vice President, Goldman Sachs Private Wealth Management | *The Draft* | Grew up in Cleveland; daughter of a public defender and a social worker; told herself finance would be a stepping stone to something meaningful; writes a resignation email about Epstein connections but doesn't send it |
 | Earl Givens | 72 | Barber, Givens' Barbershop | *Sixty-Third Street* | Owned his shop on 63rd Street, Woodlawn, Chicago for 43 years; widower; Army veteran; Jesse Jackson walked in for a trim in 1984 and asked Earl to join the campaign; Earl said no and has been telling the story without that part ever since |
+| Héctor Mejía | 38 | Construction foreman | *La Fortuna* | Born in San Pedro Sula, Honduras; permanent US resident in Houston; father Rubén (67) killed when U.S. military struck his fishing boat La Fortuna in the Caribbean, October 2025; DoD classified the vessel as a "suspected narcotics vessel" with no evidence; spent fourteen weeks fighting the official record before flying to La Ceiba to see the grave |
 
 ### Supporting Characters
 
@@ -165,7 +166,7 @@ A reference list of characters who have appeared in previous stories. These can 
 - Target length: 500-1,000 words (tight and punchy)
 - No em dashes, use commas, semicolons, periods
 - Endings should be abrupt and decisive
-- When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot. But vary the shape of endings: not every story should close on the protagonist alone performing a solitary gesture. Consider endings with dialogue, with two characters in the same frame, with a shift to a wider view, with an interruption, or with someone arriving rather than leaving.
+- When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot. But vary the shape of endings: not every story should close on the protagonist alone performing a solitary gesture. Consider endings with dialogue, with two characters in the same frame, with a shift to a wider view, with an interruption, or with someone arriving rather than leaving. When the ending adopts a wider view (landscape, open water, sky), deliver that view through sensory detail only; resist the temptation to use the camera pullback as an occasion for thematic summary.
 - Show, don't tell.
 - Open with the conflict already in motion; establish atmosphere through the action, not before it.
 - When a memory or flashback surfaces, cut directly to concrete detail; avoid framing language that explains which version of the memory this is or why it is arriving.
