@@ -19,6 +19,7 @@ Autofiction/
 │   ├── YYYY-MM-DD.md          # Daily session logs (append-only)
 │   └── .gitkeep
 ├── CLAUDE.md                  # AI assistant guide and project conventions (this file)
+├── EDITOR-LETTER-PROTOCOL.md  # Weekly "Letter from the Editor" workflow
 ├── MEMORY.md                  # Curated long-term memory (loaded every session)
 └── PROTOCOL.md                # 5-step story generation workflow
 ```
@@ -136,10 +137,12 @@ Over time, review daily logs and promote recurring patterns or significant decis
 |------|---------|
 | `CLAUDE.md` | AI assistant guide and project conventions (this file) |
 | `PROTOCOL.md` | 5-step story generation workflow |
+| `EDITOR-LETTER-PROTOCOL.md` | 4-step weekly "Letter from the Editor" workflow |
 | `MEMORY.md` | Curated long-term memory — preferences, decisions, conventions |
 | `memory/TEMPLATE.md` | Template for creating new daily session logs |
 | `memory/YYYY-MM-DD.md` | Daily session logs (append-only, one per day) |
 | `stories/YYYY-MM-DD-slug.md` | Generated stories with metadata, outlines, and full text |
+| `stories/YYYY-MM-DD-editors-letter.md` | Weekly editor's letters reviewing recent stories |
 | `.github/workflows/autofiction.yml` | GitHub Actions daily automation workflow |
 
 ## Common Tasks
@@ -148,6 +151,7 @@ Over time, review daily logs and promote recurring patterns or significant decis
 - **Trigger automated generation:** Use the `workflow_dispatch` trigger in GitHub Actions, or wait for the daily 6 PM Eastern cron.
 - **Review a story:** Check the latest file in `stories/` — each includes metadata, the outline, and the full text.
 - **Update the protocol:** Follow Step 4 (Recursive Analysis) — at most one sentence-level change per story, motivated by a specific craft observation.
+- **Generate a weekly editor's letter:** Run `claude` and instruct it to "run editor letter protocol". It will follow the 4 steps in `EDITOR-LETTER-PROTOCOL.md`, reviewing the past week's stories for themes and motifs.
 - **Check session history:** Read the daily logs in `memory/` for running context, or `MEMORY.md` for durable facts.
 
 ## Tool Usage — Web Search
