@@ -12,7 +12,8 @@ This file provides context and conventions for AI assistants (and developers) wo
 Autofiction/
 ├── .github/
 │   └── workflows/
-│       └── autofiction.yml    # GitHub Actions: daily automated story generation
+│       ├── autofiction.yml    # GitHub Actions: daily automated story generation
+│       └── editor-letter.yml  # GitHub Actions: weekly editor's letter generation
 ├── stories/                   # Generated stories (YYYY-MM-DD-slug.md)
 ├── memory/
 │   ├── TEMPLATE.md            # Template for new daily logs
@@ -49,12 +50,22 @@ This is a Markdown-and-protocol project — there is no traditional build step, 
 
 ### CI/CD
 
-A GitHub Actions workflow at `.github/workflows/autofiction.yml` automates daily story generation:
+Two GitHub Actions workflows automate content generation:
+
+**Daily story generation** (`.github/workflows/autofiction.yml`):
 
 - **Schedule:** Daily at 6 PM Eastern (11 PM UTC) via cron
 - **Manual trigger:** Available via `workflow_dispatch` in the GitHub UI
 - **Process:** Checks out `Main-Branch`, installs Claude Code CLI, runs the protocol, commits the story to an `autofiction/YYYY-MM-DD-HHMM` branch, and opens a PR to `Main-Branch`
 - **Important:** The workflow handles all git operations (commit, push, PR creation). Claude is told to skip git commands during CI runs — it only writes files.
+- **Secrets required:** `ANTHROPIC_API_KEY` must be configured in the repository settings
+
+**Weekly editor's letter** (`.github/workflows/editor-letter.yml`):
+
+- **Schedule:** Weekly on Sundays at 8 PM Eastern (Mondays 1 AM UTC) via cron
+- **Manual trigger:** Available via `workflow_dispatch` in the GitHub UI
+- **Process:** Checks out `Main-Branch`, installs Claude Code CLI, runs the editor letter protocol (`EDITOR-LETTER-PROTOCOL.md`), commits the letter to an `autofiction/editors-letter-YYYY-MM-DD-HHMM` branch, and opens a PR to `Main-Branch`
+- **Important:** Same git delegation as the daily workflow — Claude only writes files; the workflow handles commit, push, and PR creation.
 - **Secrets required:** `ANTHROPIC_API_KEY` must be configured in the repository settings
 
 ## Conventions
@@ -144,6 +155,7 @@ Over time, review daily logs and promote recurring patterns or significant decis
 | `stories/YYYY-MM-DD-slug.md` | Generated stories with metadata, outlines, and full text |
 | `stories/YYYY-MM-DD-editors-letter.md` | Weekly editor's letters reviewing recent stories |
 | `.github/workflows/autofiction.yml` | GitHub Actions daily automation workflow |
+| `.github/workflows/editor-letter.yml` | GitHub Actions weekly editor's letter automation |
 
 ## Common Tasks
 
@@ -151,7 +163,7 @@ Over time, review daily logs and promote recurring patterns or significant decis
 - **Trigger automated generation:** Use the `workflow_dispatch` trigger in GitHub Actions, or wait for the daily 6 PM Eastern cron.
 - **Review a story:** Check the latest file in `stories/` — each includes metadata, the outline, and the full text.
 - **Update the protocol:** Follow Step 4 (Recursive Analysis) — at most one sentence-level change per story, motivated by a specific craft observation.
-- **Generate a weekly editor's letter:** Run `claude` and instruct it to "run editor letter protocol". It will follow the 4 steps in `EDITOR-LETTER-PROTOCOL.md`, reviewing the past week's stories for themes and motifs.
+- **Generate a weekly editor's letter:** Run `claude` and instruct it to "run editor letter protocol". It will follow the 4 steps in `EDITOR-LETTER-PROTOCOL.md`, reviewing the past week's stories for themes and motifs. Alternatively, use the `workflow_dispatch` trigger on the Editor's Letter workflow, or wait for the weekly Sunday 8 PM Eastern cron.
 - **Check session history:** Read the daily logs in `memory/` for running context, or `MEMORY.md` for durable facts.
 
 ## Tool Usage — Web Search
