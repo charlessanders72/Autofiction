@@ -118,6 +118,9 @@ A reference list of characters who have appeared in previous stories. These can 
 | Rachel Kovacs | 32 | Junior Vice President, Goldman Sachs Private Wealth Management | *The Draft* | Grew up in Cleveland; daughter of a public defender and a social worker; told herself finance would be a stepping stone to something meaningful; writes a resignation email about Epstein connections but doesn't send it |
 | Earl Givens | 72 | Barber, Givens' Barbershop | *Sixty-Third Street* | Owned his shop on 63rd Street, Woodlawn, Chicago for 43 years; widower; Army veteran; Jesse Jackson walked in for a trim in 1984 and asked Earl to join the campaign; Earl said no and has been telling the story without that part ever since |
 | Héctor Mejía | 38 | Construction foreman | *La Fortuna* | Born in San Pedro Sula, Honduras; permanent US resident in Houston; father Rubén (67) killed when U.S. military struck his fishing boat La Fortuna in the Caribbean, October 2025; DoD classified the vessel as a "suspected narcotics vessel" with no evidence; spent fourteen weeks fighting the official record before flying to La Ceiba to see the grave |
+| Layla Shirazi | 36 | Simultaneous interpreter, State Department contractor | *The Interpreter* | Iranian-American; father left Tehran in 1980; father's rule: "Say what the man said, not what you wish he said"; twelve years translating without incident; second round at Geneva for US-Iran indirect nuclear talks |
+| Kim Seo-yeon | 61 | Presiding judge, Seoul Central District Court | *Life* | Grew up in Gwangju; was fifteen during the 1980 military crackdown; chose law in response; twenty-eight years on the bench; never married; reads the verdict sentencing former president Yoon Suk Yeol to life for insurrection |
+| Frank Harlan | 57 | Character actor | *Likeness* | Los Angeles; sixty-plus supporting roles over thirty years; one lead (indie *Harbormaster*, 1996) reviewed well, disappeared in four weeks; three marriages; one daughter Emma (26); drives a 2014 Camry; offered a Seedance 2.0 likeness deal but does not sign |
 
 ### Supporting Characters
 
@@ -137,6 +140,8 @@ A reference list of characters who have appeared in previous stories. These can 
 | Beto Restrepo | 62 | Building superintendent | *The Payout* | Sofia's father; Jackson Heights, Queens; still connected to the Venezuelan community; carries the past his daughter has abstracted away |
 | David Chen | 45 | Managing Director, Goldman Sachs Private Wealth Management | *The Draft* | Rachel's boss; affable, insulated; treats uncomfortable news like a passing weather system; tells Rachel to keep her head down after Ruemmler's resignation |
 | Marcus | 38 | High school history teacher, Simeon Career Academy | *Sixty-Third Street* | Earl's regular customer; comes every other Tuesday; has heard the Jackson story a dozen times and always asks for it |
+| Park Jun-ho | 28 | Judicial clerk | *Life* | Kim Seo-yeon's clerk; two years in the role; born after the 1996 generals' convictions; knows Gwangju from textbooks |
+| Judith Chung | 43 | VP of Content Strategy, Meridian Studios | *Likeness* | Offers Frank the Seedance 2.0 likeness deal; smart, precise; brief apologies; was 13 when *Harbormaster* came out |
 
 ### Minor/Recurring Characters
 
@@ -158,6 +163,8 @@ A reference list of characters who have appeared in previous stories. These can 
 | Adaeze Okonkwo | *The Shot* | Grace's 15-month-old daughter; receives the MMR vaccine |
 | Andrés Fuentes | *The Payout* | Venezuelan man from La Candelaria, shot by ICE in Minneapolis; 34, warehouse worker, father of two |
 | Tía Marta | *The Payout* | Sofia's aunt; calls Beto upset about the shooting |
+| Hossein Farrokhzad | *The Interpreter* | Iranian Foreign Ministry official, 55; senior negotiator at Geneva talks; speaks Tehran formal Persian; voice only — Layla never sees his face |
+| Emma Harlan | *Likeness* | Frank's daughter, 26; picks up when he calls from the parking garage; voice in the background of her office |
 
 ---
 
@@ -166,7 +173,7 @@ A reference list of characters who have appeared in previous stories. These can 
 - Target length: 500-1,000 words (tight and punchy)
 - No em dashes, use commas, semicolons, periods
 - Endings should be abrupt and decisive
-- When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot. But vary the shape of endings: not every story should close on the protagonist alone performing a solitary gesture. Consider endings with dialogue, with two characters in the same frame, with a shift to a wider view, with an interruption, or with someone arriving rather than leaving. When the ending adopts a wider view (landscape, open water, sky), deliver that view through sensory detail only; resist the temptation to use the camera pullback as an occasion for thematic summary.
+- When possible, end on a concrete physical action rather than an internal thought; let the body resolve what the mind cannot. But vary the shape of endings: not every story should close on the protagonist alone performing a solitary gesture. Consider endings with dialogue, with two characters in the same frame, with a shift to a wider view, with an interruption, or with someone arriving rather than leaving. When the emotional resolution arrives in dialogue, resist the impulse to follow it with a solitary closing action. When the ending adopts a wider view (landscape, open water, sky), deliver that view through sensory detail only; resist the temptation to use the camera pullback as an occasion for thematic summary.
 - Show, don't tell.
 - Open with the conflict already in motion; establish atmosphere through the action, not before it.
 - When a memory or flashback surfaces, cut directly to concrete detail; avoid framing language that explains which version of the memory this is or why it is arriving.
