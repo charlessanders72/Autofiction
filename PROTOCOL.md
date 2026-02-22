@@ -58,7 +58,7 @@ Send the outline to **Claude Opus** with this prompt:
 >
 > The story should end cleanly and decisively at the resolution of the conflict arc. Avoid using em dashes for punctuation; instead, rely on commas, semicolons, or periods to maintain stylistic consistency.
 >
-> Before beginning the draft, review the tense and POV choices of the five most recent stories in `stories/`. Then select a tense (past, present, or future) and point of view (first person, second person, third person limited, or third person omniscient) that **differs from the most common recent choice**. Third person limited is the default only when no other POV serves the story; actively consider first person for confessional or intimate narratives, second person for immersive or accusatory tones, and omniscient for stories with multiple characters whose inner lives matter equally. In first person, the narrator's voice is itself a form of characterization; let speech patterns, digressions, and the rhythm of self-disclosure do work that third person achieves through physical detail and action. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
+> Before beginning the draft, review the tense and POV choices of the five most recent stories in `stories/`. Then select a tense (past, present, or future) and point of view (first person, second person, third person limited, or third person omniscient) that **differs from the most common recent choice**. Third person limited is the default only when no other POV serves the story; actively consider first person for confessional or intimate narratives, second person for immersive or accusatory tones, and omniscient for stories with multiple characters whose inner lives matter equally. In first person, the narrator's voice is itself a form of characterization; let speech patterns, digressions, and the rhythm of self-disclosure do work that third person achieves through physical detail and action. When a first-person narrator's restraint is itself characterization, let them report events without assigning feelings to them; the omission is the emotion. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
 
 Then append the outline from Step 2.
 
@@ -121,6 +121,8 @@ A reference list of characters who have appeared in previous stories. These can 
 | Layla Shirazi | 36 | Simultaneous interpreter, State Department contractor | *The Interpreter* | Iranian-American; father left Tehran in 1980; father's rule: "Say what the man said, not what you wish he said"; twelve years translating without incident; second round at Geneva for US-Iran indirect nuclear talks |
 | Kim Seo-yeon | 61 | Presiding judge, Seoul Central District Court | *Life* | Grew up in Gwangju; was fifteen during the 1980 military crackdown; chose law in response; twenty-eight years on the bench; never married; reads the verdict sentencing former president Yoon Suk Yeol to life for insurrection |
 | Frank Harlan | 57 | Character actor | *Likeness* | Los Angeles; sixty-plus supporting roles over thirty years; one lead (indie *Harbormaster*, 1996) reviewed well, disappeared in four weeks; three marriages; one daughter Emma (26); drives a 2014 Camry; offered a Seedance 2.0 likeness deal but does not sign |
+| Delphine Osei-Bonsu | 31 | PE teacher, Sacramento middle school | *Names* | Ghanaian-American; Sierra Nevada ski trip every February since 2017; twisted her ankle morning of the avalanche and watched her six friends go up from the lodge window; called search and rescue when they didn't return by dark |
+| Aviaja Olsen | 46 | Community health worker | *Three Patients* | Tasiilaq, East Greenland; Greenlandic (Inuit mother, Danish-Greenlandic father, fisherman d. 2018); twenty years navigating Danish administrative structures and her community's actual needs; two adult children in Nuuk; boards the American hospital ship because she has three patients who need the surgeon on board |
 
 ### Supporting Characters
 
@@ -142,6 +144,8 @@ A reference list of characters who have appeared in previous stories. These can 
 | Marcus | 38 | High school history teacher, Simeon Career Academy | *Sixty-Third Street* | Earl's regular customer; comes every other Tuesday; has heard the Jackson story a dozen times and always asks for it |
 | Park Jun-ho | 28 | Judicial clerk | *Life* | Kim Seo-yeon's clerk; two years in the role; born after the 1996 generals' convictions; knows Gwangju from textbooks |
 | Judith Chung | 43 | VP of Content Strategy, Meridian Studios | *Likeness* | Offers Frank the Seedance 2.0 likeness deal; smart, precise; brief apologies; was 13 when *Harbormaster* came out |
+| Keith Alcazar | 44 | Search and rescue coordinator, Inyo National Forest | *Names* | Twenty-three years in the work; forty-two recoveries; gotten better at the phone calls and the forms; not at the walking across a room toward someone still waiting |
+| Lt. Cmdr. Patricia Walsh | 38 | Military physician (orthopedic surgeon) | *Three Patients* | Cleveland; first Arctic deployment; shows patients their own imaging on her own screen; holds up a hand to stop cameras without turning around; called Aviaja by her practiced first name on first meeting |
 
 ### Minor/Recurring Characters
 
@@ -165,6 +169,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Tía Marta | *The Payout* | Sofia's aunt; calls Beto upset about the shooting |
 | Hossein Farrokhzad | *The Interpreter* | Iranian Foreign Ministry official, 55; senior negotiator at Geneva talks; speaks Tehran formal Persian; voice only — Layla never sees his face |
 | Emma Harlan | *Likeness* | Frank's daughter, 26; picks up when he calls from the parking garage; voice in the background of her office |
+| Piitaq | *Three Patients* | Aviaja's colleague, male nurse, 50s; waits at the dock with a thermos of coffee while she boards the ship; wears a red hat his daughter knitted |
 
 ---
 
