@@ -58,7 +58,7 @@ Send the outline to **Claude Opus** with this prompt:
 >
 > The story should end cleanly and decisively at the resolution of the conflict arc. Avoid using em dashes for punctuation; instead, rely on commas, semicolons, or periods to maintain stylistic consistency.
 >
-> Before beginning the draft, review the tense and POV choices of the five most recent stories in `stories/`. Then select a tense (past, present, or future) and point of view (first person, second person, third person limited, or third person omniscient) that **differs from the most common recent choice**. Third person limited is the default only when no other POV serves the story; actively consider first person for confessional or intimate narratives, second person for immersive or accusatory tones, and omniscient for stories with multiple characters whose inner lives matter equally. In first person, the narrator's voice is itself a form of characterization; let speech patterns, digressions, and the rhythm of self-disclosure do work that third person achieves through physical detail and action. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
+> Before beginning the draft, review the tense and POV choices of the five most recent stories in `stories/`. Then select a tense (past, present, or future) and point of view (first person, second person, third person limited, or third person omniscient) that **differs from the most common recent choice**. Third person limited is the default only when no other POV serves the story; actively consider first person for confessional or intimate narratives, second person for immersive or accusatory tones, and omniscient for stories with multiple characters whose inner lives matter equally. In first person, the narrator's voice is itself a form of characterization; let speech patterns, digressions, and the rhythm of self-disclosure do work that third person achieves through physical detail and action. What a first-person narrator habitually notices is as characterizing as how they speak; let the character's observational patterns do their work without the narrator announcing that a detail has registered. Once those decisions are made, proceed to expand the provided outline into a fully realized story.
 
 Then append the outline from Step 2.
 
@@ -121,6 +121,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Layla Shirazi | 36 | Simultaneous interpreter, State Department contractor | *The Interpreter* | Iranian-American; father left Tehran in 1980; father's rule: "Say what the man said, not what you wish he said"; twelve years translating without incident; second round at Geneva for US-Iran indirect nuclear talks |
 | Kim Seo-yeon | 61 | Presiding judge, Seoul Central District Court | *Life* | Grew up in Gwangju; was fifteen during the 1980 military crackdown; chose law in response; twenty-eight years on the bench; never married; reads the verdict sentencing former president Yoon Suk Yeol to life for insurrection |
 | Frank Harlan | 57 | Character actor | *Likeness* | Los Angeles; sixty-plus supporting roles over thirty years; one lead (indie *Harbormaster*, 1996) reviewed well, disappeared in four weeks; three marriages; one daughter Emma (26); drives a 2014 Camry; offered a Seedance 2.0 likeness deal but does not sign |
+| Nora Callahan | 42 | Physical therapist | *First Available* | Red Hook, Brooklyn; Irish-American; divorced four years ago from David Park (radiologist, now in Denver); daughter Zoe (16) lives with David; one extended February visit per year under the custody arrangement; stranded at JFK during the February 2026 bomb cyclone; books the first available flight home to Zoe three days out |
 
 ### Supporting Characters
 
@@ -142,6 +143,7 @@ A reference list of characters who have appeared in previous stories. These can 
 | Marcus | 38 | High school history teacher, Simeon Career Academy | *Sixty-Third Street* | Earl's regular customer; comes every other Tuesday; has heard the Jackson story a dozen times and always asks for it |
 | Park Jun-ho | 28 | Judicial clerk | *Life* | Kim Seo-yeon's clerk; two years in the role; born after the 1996 generals' convictions; knows Gwangju from textbooks |
 | Judith Chung | 43 | VP of Content Strategy, Meridian Studios | *Likeness* | Offers Frank the Seedance 2.0 likeness deal; smart, precise; brief apologies; was 13 when *Harbormaster* came out |
+| Zoe Park | 16 | Student | *First Available* | Denver; lives with her father David Park (Korean-American radiologist); Nora Callahan's daughter; watched the February 2026 bomb cyclone forecast for five days and said nothing to her mother |
 
 ### Minor/Recurring Characters
 
