@@ -1,8 +1,6 @@
 name: Editor's Letter
 
 on:
-  schedule:
-    - cron: '0 1 * * 1' # weekly on Mondays at 1 AM UTC (Sunday 8 PM Eastern)
   workflow_dispatch: # manual trigger from GitHub UI
 
 permissions:
