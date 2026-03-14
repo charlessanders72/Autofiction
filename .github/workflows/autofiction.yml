@@ -1,8 +1,6 @@
 name: Autofiction Protocol
 
 on:
-  schedule:
-    - cron: '0 23 * * *' # daily at 6 PM Eastern (11 PM UTC)
   workflow_dispatch: # manual trigger from GitHub UI
 
 permissions:
